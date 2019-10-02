@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Cargo Description</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-label>Description</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>Disclaimers</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>Hazardous materials</ion-label>
+        <ion-checkbox></ion-checkbox>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>Insurance required</ion-label>
+        <ion-checkbox></ion-checkbox>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-button routerLink="/shipping-information">Next</ion-button>
+</ion-content>
